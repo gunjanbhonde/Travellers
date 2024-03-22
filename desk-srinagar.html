@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahabaleshwar-Travellers</title>
+    <link
+    rel="icon"
+    type="image/x-icon"
+    href="Traveller_s--images/site-favicon.png"
+  />
+  <link rel="stylesheet" href="responsive-page.css" />
+    
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="wrapper">
+                  <!-- Section 1 navbar starting ---- -->
+      <!-- for traveller logo---- -->
+   <div class="nav_bar_section-1">
+    <div class="logo-section">
+      <img src="Traveller_s--images/Travellers-desktop-logo.png" alt="">
+    </div>
+    <!-- traveller logo ending ---- -->
+
+    <!-- --support-center-bar starting--- -->
+    <div class="support-center-bar-new">
+      <div class="new-img">
+        <img  class="new-img" src="Traveller_s--images/new.png" alt="" />
+      </div>
+     <div class="new-name">
+        <h3>New</h3>
+     </div>
+      <div class="downarrow1">
+              <img class id="downArrow1" src="Traveller_s--images/down-arrow.png" alt="">  
+      </div>
+
+    </div>
+    <div class="support-center-bar-premium-manage">
+      <div class="manage-img">
+           <img src="Traveller_s--images/travel-bag.png" alt="" />
+      </div>
+     <div class="manage-name">
+          <h3>Manage</h3>
+     </div>
+     <div class="downarrow2">
+        <img class id="downArrow2" src="Traveller_s--images/down-arrow.png" alt="">  
+    </div>
+    </div>
+    <div class="support-center-bar-insurance">
+      <div class="insurance-img">
+            <img src="Traveller_s--images/life-insurance.png" alt="" />
+      </div>
+       <div class="insurance-name">
+            <h3>Insurance</h3>
+        </div>
+        <div class="downarrow3">
+          <img class id="downArrow3" src="Traveller_s--images/down-arrow.png" alt="">  
+  </div>
+    </div>
+    <!-- --support-center-bar end--- -->
+
+    <!-- --login and cart section starting--- -->
+    <div class="sign-in-button">
+      <!-- <button class="sign-in"> <h4 style="color:white;">Sign in</h4></button> -->
+      <button class="sign-in" onclick="document.getElementById('id01').style.display='block'" >Sign in</button>
+    </div>
+
+ <!---------------- --code for login-page-starting-------------------- -->
+
+    <div id="id01" class="modal">
+      
+      <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar"> -->
+        </div>
+    
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+            
+          <button class="submit" type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id01');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    </script>
+    
+  <!---------------- --code for login-page-ending-------------------- -->
+
+
+    <div class="cart-button">
+      <!-- <img src="Traveller_s--images/shopping-cart.png" alt="" /> -->
+      <video width="40px" height="40px" autoplay muted preload="auto" loop poster="video-poster.jpg">
+        <source src="Traveller_s--images/shopping-cart-animation-desk.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="menu-button">
+      <button class="dropbtn">
+        <img src="Traveller_s--images/menu-fill.png" alt="" />
+        <!-- <video width="29px" height="28px" autoplay muted preload="auto" loop poster="video-poster.jpg">
+          <source src="Traveller_s--images/Menu-animation-desk.mp4" type="video/mp4">
+          </video> -->
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Language</a>
+        <a href="#">Region</a>
+        <a href="#">Country</a>
+      </div>
+    </div>
+
+    <!-- --login and cart section end--- -->
+</div>
+
+     <div class="section-2">
+          <h2 style="color: black;">Srinagar</h2>
+          <h4 style="color: #595979;">Jahangir’s ‘heaven on earth’, Srinagar offers the picturesque Dal Lake, breath-taking mountain views, stunning Mughal gardens and sprawling orchards.</h4>
+     </div>
+
+     <div class="section-3">
+         <div class="section-3-1">
+                        <img src="Traveller_s--images/srinagar.jpg" alt="">
+          </div>
+          <div class="section-3-2">
+                   <h4 style="color:#595979;">District Srinagar is the summer capital of Jammu and Kashmir (UT). It is situated in the centre of the Kashmir Valley on the banks of the Jhelum River and is surrounded by four districts and Ladakh UT. In the north it is flanked by Ladakh (UT) and Ganderbal in the South by Pulwama in the north-west by Budgam. The capital city of Srinagar is located 1585 meters above sea level. The city is famous for its gardens, lakes and houseboats. It is also known for traditional Kashmiri handicrafts and dried fruits.
+                    The city is located on both the sides of the Jhelum River, which is called Vyath in Kashmir. The river passes through the city and meanders through the valley, moving onward and deepening in the Dal Lake. The city is famous for its nine old bridges, connecting the two parts of the city.</h4>
+          </div>
+     </div>
+
+      <div class="section-4">
+        <div class="section-4-1">
+          <h2 style="color: black;">Explore</h2>
+        </div>
+        <div class="section-4-2">
+            <img src="Traveller_s--images/andaman.jpg" alt=""> 
+            <img src="Traveller_s--images/shimla.jpeg" alt="">
+            <img src="Traveller_s--images/Alleppey.jpg" alt=""> 
+        </div>
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Traveller_s -Experience, not just travel Unforgettable Memories &
+      Incredible Adventure
+    </title>
+    <!-- fot website fevicon image -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="Traveller_s--images/site-favicon.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script>
+      /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (event) {
+        if (!event.target.matches(".d")) {
+          var dropdowns = document.getElementsByClassName("drop");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   
+   
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Section 1 navbar starting ---- -->
+      <!-- for traveller logo---- -->
+   <div class="nav_bar_section-1">
+        <div class="logo-section">
+          <img src="Traveller_s--images/Travellers-desktop-logo.png" alt="">
+        </div>
+        <!-- traveller logo ending ---- -->
+
+        <!-- --support-center-bar starting--- -->
+        <div class="support-center-bar-new">
+          <div class="new-img">
+            <img  class="new-img" src="Traveller_s--images/new.png" alt="" />
+          </div>
+         <div class="new-name">
+            <h3>New</h3>
+         </div>
+          <div class="downarrow1">
+                  <img class id="downArrow1" src="Traveller_s--images/down-arrow.png" alt="">  
+          </div>
+
+        </div>
+        <div class="support-center-bar-premium-manage">
+          <div class="manage-img">
+               <img src="Traveller_s--images/travel-bag.png" alt="" />
+          </div>
+         <div class="manage-name">
+              <h3>Manage</h3>
+         </div>
+         <div class="downarrow2">
+            <img class id="downArrow2" src="Traveller_s--images/down-arrow.png" alt="">  
+        </div>
+        </div>
+        <div class="support-center-bar-insurance">
+          <div class="insurance-img">
+                <img src="Traveller_s--images/life-insurance.png" alt="" />
+          </div>
+           <div class="insurance-name">
+                <h3>Insurance</h3>
+            </div>
+            <div class="downarrow3">
+              <img class id="downArrow3" src="Traveller_s--images/down-arrow.png" alt="">  
+      </div>
+        </div>
+        <!-- --support-center-bar end--- -->
+
+        <!-- --login and cart section starting--- -->
+        <div class="sign-in-button">
+          <!-- <button class="sign-in"> <h4 style="color:white;">Sign in</h4></button> -->
+          <button class="sign-in" onclick="document.getElementById('id01').style.display='block'" >Sign in</button>
+        </div>
+
+     <!---------------- --code for login-page-starting-------------------- -->
+
+        <div id="id01" class="modal">
+          
+          <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <!-- <img src="img_avatar2.png" alt="Avatar" class="avatar"> -->
+            </div>
+        
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+                
+              <button class="submit" type="submit">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+        
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+        </div>
+        
+        <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
+        
+      <!---------------- --code for login-page-ending-------------------- -->
+
+
+        <div class="cart-button">
+          <!-- <img src="Traveller_s--images/shopping-cart.png" alt="" /> -->
+          <video width="40px" height="40px" autoplay muted preload="auto" loop poster="video-poster.jpg">
+            <source src="Traveller_s--images/shopping-cart-animation-desk.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="menu-button">
+          <button class="dropbtn">
+            <img src="Traveller_s--images/menu-fill.png" alt="" />
+            <!-- <video width="29px" height="28px" autoplay muted preload="auto" loop poster="video-poster.jpg">
+              <source src="Traveller_s--images/Menu-animation-desk.mp4" type="video/mp4">
+              </video> -->
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Language</a>
+            <a href="#">Region</a>
+            <a href="#">Country</a>
+          </div>
+        </div>
+
+        <!-- --login and cart section end--- -->
+   </div>
+      <!-- --sub-nav-bar-main section starting--- -->
+     
+
+
+
+      <div class="sub-nav-bar-main">
+             
+          <div class="sub-nav-bar-main-window">
+                 <div class="sub-nav-bar-main-window-1">
+                       <div class="sub-nav-bar-main-window-1-flight">
+                            <div class="flight-desk-1">
+                              <img src="Traveller_s--images/flight-takeoff-line.png" alt="">
+                            </div>
+                            <div class="flight-desk-2">
+                              <h4>Flights</h4>
+                            </div>
+                      </div>
+
+                      <div class="sub-nav-bar-main-window-1-hotel">
+                           <div class="hotels-desk-1">
+                              <img src="Traveller_s--images/hotel-line.png" alt="">
+                          </div>
+                          <div class="hotels-desk-2">
+                              <h4>Hotels</h4>
+                         </div>
+                      </div> 
+
+                      <div class="sub-nav-bar-main-window-1-train">
+                          <div class="trains-desk-1">
+                             <img src="Traveller_s--images/train-line.png" alt="">
+                          </div>
+                          <div class="trains-desk-2">
+                            <h4>Trains</h4>
+                         </div>
+                      </div>
+
+                      <div class="sub-nav-bar-main-window-1-bus">
+                        <div class="buses-desk-1">
+                          <img src="Traveller_s--images/bus-line.png" alt="">
+                        </div>
+                        <div class="buses-desk-2">
+                           <h4>Buses</h4>
+                        </div>
+                      </div>
+
+                      <div class="sub-nav-bar-main-window-1-taxi">
+                        <div class="taxi-desk-1">
+                          <img src="Traveller_s--images/taxi-desk.png" alt="">
+                        </div>
+                        <div class="taxi-desk-2">
+                           <h4>Cabs</h4>
+                        </div>
+                      </div>
+
+                      <div class="sub-nav-bar-main-window-1-more-info">
+                             <h3>Book Flights, Trains, Buses & Hotels</h3>
+                      </div>
+
+                 </div>
+
+
+                <div class="sub-nav-bar-main-window-2">
+                     <div class="sub-nav-bar-main-window-2-1">
+                         <div class="one-way-trip-desk">
+                           <button id="one-way-trip-desk-button"><h3>One Way</h3></button>
+                         </div>
+                         <div class="Round-way-trip-desk">
+                           <button id="Round-way-trip-desk-button"><h3>Round Trip</h3></button>
+                         </div>
+                         <div class="text-animation-desk">
+                            <video width="40px" height="40px" autoplay muted preload="auto" loop poster="video-poster.jpg">
+                            <source src="Traveller_s--images/best-offer.mp4" type="video/mp4">
+                            </video>
+                         </div>
+                     </div>
+
+                     <div class="sub-nav-bar-main-window-2-2">
+                            <div class="s-n-b-m-w-2-2-1">
+                                 <div class="from-desk-1">
+                                  <h4 style="color:#5E616E;">From</h4>
+                                 </div>
+                                 <div class="from-desk-2">
+                                   <select name="from-desk" id="From-desk-select">
+                                    <option value="Mu">Mumbai,MH,India</option>
+                                    <option value="Mu">Goa,Goa,India</option>
+                                    <option value="Mu">Dubai,Dubayy,UAE</option>
+                                    <option value="Mu">Pune,MH,India</option>
+                                    <option value="Mu">Banglore,KA,India</option>
+                                    <option value="Mu">Mumias,Western,Kenya</option>
+                                    <option value="Mu">Dumai,Riau,Indonesia</option>
+                                    <option value="Mu">Umba,Papua New Guinea</option>
+                                    <option value="Mu">Simbai,Papua New Guinea </option>
+                                   </select>
+                                 </div>
+                            </div>
+
+                            <div class="s-n-b-m-w-2-2-2">
+                              <div class="to-desk-1">
+                                <h4 style="color:#5E616E;">To</h4>
+                               </div>
+                               <div class="to-desk-2">
+                                 <select name="to-desk" id="to-desk-select">
+                                  <option value="Mu">Goa,Goa,India</option>
+                                  <option value="Mu">Mumbai,MH,India</option>
+                                  <option value="Mu">Dubai,Dubayy,UAE</option>
+                                  <option value="Mu">Pune,MH,India</option>
+                                  <option value="Mu">Banglore,KA,India</option>
+                                  <option value="Mu">Mumias,Western,Kenya</option>
+                                  <option value="Mu">Dumai,Riau,Indonesia</option>
+                                  <option value="Mu">Umba,Papua New Guinea</option>
+                                  <option value="Mu">Simbai,Papua New Guinea </option>
+                                 </select>
+                               </div>
+                            </div>
+
+                            <div class="s-n-b-m-w-2-2-3">
+                                   <div class="departure-desk-1">
+                                       <h4 style="color:#5E616E;">Departure</h4>
+                                   </div>
+                                   <div class="departure-desk-2">
+                                       <h2 style="color:#17181C;">Sun,17 March </h2>
+                                   </div>
+                            </div>
+
+                            <div class="s-n-b-m-w-2-2-4">
+                                <div class="arrival-desk-1">
+                                    <h4 style="color:#5E616E;">Arrival</h4>
+                                </div>
+                                <div class="arrival-desk-2">
+                                    <h2 style="color:#17181C;">Sat,23 March </h2>
+                                </div>
+                            </div>
+
+                            <div class="s-n-b-m-w-2-2-5">
+                                 <div class="travellers-class-desk-1">
+                                      <h4 style="color:#5E616E;">Travellers & Class</h4>
+                                 </div>
+                                 <div class="travellers-class-desk-2">
+                                    <h2 style="color:#17181C;">1 Traveller,Economy </h2>
+                                 </div>
+                            </div>
+
+                            <div class="s-n-b-m-w-2-2-6">
+                              <h2 style="color:white;">Search</h2>
+                            </div>
+                     </div>
+
+                     <div class="sub-nav-bar-main-window-2-3">
+                             <div class="special-fare-optional-desk">
+                                     <h3>Special Fares :</h3>
+                             </div>
+                             <div class="special-fare-student-desk">
+                                <button id="special-fare-student-desk-button"><h3>Student</h3></button>
+                             </div>
+                             <div class="special-fare-senior-citizen-desk">
+                                <button id="special-fare-senior-citizen-desk-button"><h3>Senior Citizen</h3></button>
+                             </div>
+                             <div class="special-fare-Armed-force-desk">
+                                 <button id="special-fare-Armed-force-desk-button"><h3>Armed Forces</h3></button>
+                             </div>
+
+                     </div>
+
+                </div>
+          </div>
+
+       
+              
+
+         
+
+      </div> 
+
+      <!-- <div class="dropdown1">
+        <button onclick="myFunction()" class="d">Dropdown</button>
+        <div id="myDropdown" class="drop">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div> -->
+
+
+   
+      <!-- --sub-nav-bar-main section end--- -->
+
+      <div class="back">
+        <img src="Traveller_s--images/back-gound-1.jpg" alt="video" />
+      </div>
+
+      <!-- Section 1 navbar end ---- -->
+
+     
+
+      <!-- -----------------section-banner-1-starting------------- -->
+       <div class="section-banner-1-main">
+             <div class="section-1-1">
+                <img src="Traveller_s--images/slide-1.png" alt="">
+               <img src="Traveller_s--images/slide-2.png" alt="">
+                <img src="Traveller_s--images/slide-3.png" alt="">
+               <img src="Traveller_s--images/slide-4.png" alt="">
+               <img src="Traveller_s--images/slide-5.png" alt="">
+               <img src="Traveller_s--images/slide-6.png" alt="">
+          </div>
+       </div>
+
+       <!-- -----------------section-banner-1-end------------- -->
+
+
+
+      <!-------------- section-2-offers-categories-starting----------->
+
+       <div class="section-2-offers-main">
+            <div class="section-2-offers">
+                    <div class="section-2-offers-1">
+                        <h1>Offers</h1>
+                        <h4 style="color: #595979;">Promotions, deals and special offers for you</h4>
+                    </div>
+                    <div class="section-2-offers-2">
+                      
+                         <img src="Traveller_s--images/lakshyadweep-offer-img.jpg" alt="">
+                          <img src="Traveller_s--images/indego-offer-3.jpg" alt="">
+                          <img src="Traveller_s--images/sbi-offer-img.jpg" alt="">
+                          <img src="Traveller_s--images/Air-vistara-offer.jpeg" alt="">
+                          <img src="Traveller_s--images/red-bus-offer-2.jpg" alt="">
+                          <img src="Traveller_s--images/rapido-coupon-codes .jpg" alt="">
+                     </div>
+              </div>
+          </div>
+             
+     <!-------------- section-2-offers--categories-end ----------->
+
+  
+      <!-------------- section-3-why-book-with-travellers-starting----------->
+      <div class="why-book-with-travellers-main">
+              <div class="why-book-with-travellers-1">
+                  <h1>Why Book With Travellers?</h1>
+              </div>
+              <div class="why-book-with-travellers-2">
+                    <img src="Traveller_s--images/24-7-why-do-more.webp" alt="">
+                    <img src="Traveller_s--images/40%-asve-why-do-more.webp" alt="">
+                    <img src="Traveller_s--images/automatic-why-do-more.webp" alt="">
+                    <img src="Traveller_s--images/track-why-do-more.png" alt="">
+               </div>
+        </div>
+
+      <!-------------- section-3-why-book-with-travellers-ending----------->   
+
+
+
+     <!-------------- section-4-Categories--Starting ----------->
+        <div class="categories-section-4-main">
+           <div class="different-categories">
+                <div class="section-4-categories-name">
+                   <h1>Categories</h1>
+                   <h4 style="color: #595979;">Explore the diversity of India</h4>
+                </div>
+                <div class="section-4-categories-type-2">
+                       
+                  <div class="wildlife">
+                      <img src="Traveller_s--images/wildlife-1.jpg" alt="">
+                      <h4 style="color: black;">Wildlife</h4>
+                  </div>
+                  <div class="Beaches">
+                      <img src="Traveller_s--images/beach-cat-2.jpg" alt="">
+                      <h4 style="color: black;">Beaches</h4>
+                  </div>
+                   <div class="Hills & Mountains">
+                        <img src="Traveller_s--images/HD-wallpaper-mountains-hills-valley-slope-trees-landscape-nature.jpg" alt="">
+                        <h4 style="color: black;">Hills & Mountains</h4>
+                   </div>
+                  <div class="Trekking">
+                    <img src="Traveller_s--images/HD-wallpaper-mountains-camping-country-hiking-nature-sunrise-trekking.jpg" alt="">
+                     <h4 style="color: black;">Trekking</h4>
+                 </div>
+                 <div class="Adventure">
+                  <img src="Traveller_s--images/adventure-desk.jpg" alt="">
+                   <h4 style="color: black;">Adventure</h4>
+                 </div>
+                 <div class="pilgrimage">
+                  <img src="Traveller_s--images/pilgrimage-5.jpg" alt="">
+                   <h4 style="color: black;">pilgrimage</h4>
+                </div>
+                 <div class="Relax">
+                  <img src="Traveller_s--images/aircraft_flight_image_06_hd_pictures_166323.jpg" alt="">
+                   <h4 style="color: black;">International</h4>
+                 </div>
+
+             </div>
+          </div>
+      </div> 
+
+
+     <!-------------- section-4-Categories--end ----------->
+
+
+     <!-------------- section-5-Download-App--Starting ----------->
+       <div class="download-app-5-main">
+            <img src="Traveller_s--images/download-app-poster.jpg" alt="">
+       </div> 
+
+     <!-------------- section-5-Download-App--Starting ----------->
+
+
+    <!-------------- section-6-Indian-places-location-Starting ----------->
+    <div class="indian-best-places-6-main">
+                <!-- <div class="indigo-offer-banner-ad">
+                              <img class id="indigo-offer-ad"src="Traveller_s--images/indigo-offer-34-ad.jpeg" alt="">
+                </div> -->
+      <div class="indian-best-places-6">
+              <div class="section-6-place-1">
+                  <h1>Trendings</h1>
+                  <h4 style="color: #595979;">Most popular choices for travellers from India</h4>
+              </div>
+              <div class="section-6-place-2">
+                           <button id="myButton-11" class="mahabaleshwar-img-trending" ><img src="Traveller_s--images/Mahabaleshwar.webp" alt=""> </button>
+                
+                    <script type="text/javascript">
+                      document.getElementById("myButton-11").onclick = function () {
+                        window.location.href = "desk-mahabaleshwar.html";
+                          };
+                    </script>
+                     <button id="myButton-12" class="srinagar-img-trending" ><img src="Traveller_s--images/srinagar.jpg" alt=""> </button>
+                
+                     <script type="text/javascript">
+                       document.getElementById("myButton-12").onclick = function () {
+                         window.location.href = "desk-srinagar.html";
+                           };
+                     </script>
+                      <button id="myButton-13" class="Goa-img-trending" ><img src="Traveller_s--images/goa.jpg" alt=""> </button>
+                
+                      <script type="text/javascript">
+                        document.getElementById("myButton-13").onclick = function () {
+                          window.location.href = "desk-goa.html";
+                            };
+                      </script>
+                       <button id="myButton-14" class="Leh-ladhak-img-trending" ><img src="Traveller_s--images/Leh-Ladakhu.jpg" alt=""> </button>
+                
+                       <script type="text/javascript">
+                         document.getElementById("myButton-14").onclick = function () {
+                           window.location.href = "desk-leh-ladhak.html";
+                             };
+                       </script>
+                        <button id="myButton-15" class="andaman-img-trending" ><img src="Traveller_s--images/andaman.jpg" alt=""> </button>
+                
+                        <script type="text/javascript">
+                          document.getElementById("myButton-15").onclick = function () {
+                            window.location.href = "desk-andaman.html";
+                              };
+                        </script>
+                         
+              </div>
+
+
+              <div class="section-6-place-3">   
+                <button id="myButton-16" class="shimla-img-trending" ><img src="Traveller_s--images/shimla.jpeg" alt=""> </button>
+                
+                <script type="text/javascript">
+                  document.getElementById("myButton-16").onclick = function () {
+                    window.location.href = "desk-shimala.html";
+                      };
+                </script>
+                 <button id="myButton-17" class="alleppey-img-trending" ><img src="Traveller_s--images/Alleppey.jpg" alt=""> </button>
+                
+                 <script type="text/javascript">
+                   document.getElementById("myButton-17").onclick = function () {
+                     window.location.href = "desk-alleppy.html";
+                       };
+                 </script>
+                  <button id="myButton-18" class="ooty-img-trending" ><img src="Traveller_s--images/ooty.jpg" alt=""> </button>
+                
+                  <script type="text/javascript">
+                    document.getElementById("myButton-18").onclick = function () {
+                      window.location.href = "desk-ooty.html";
+                        };
+                  </script>
+                   <button id="myButton-19" class="eiffel-img-trending" ><img src="Traveller_s--images/Eiffel tower.jpg" alt=""> </button>
+                
+                   <script type="text/javascript">
+                     document.getElementById("myButton-19").onclick = function () {
+                       window.location.href = "desk-eiffel-tower.html";
+                         };
+                   </script>
+                    <button id="myButton-20" class="Burg-khalifa-img-trending" ><img src="Traveller_s--images/dubai.jpg" alt=""> </button>
+                
+                    <script type="text/javascript">
+                      document.getElementById("myButton-20").onclick = function () {
+                        window.location.href = "desk-burg-khalifa.html";
+                          };
+                    </script>
+                     <button id="myButton-21" class="Taj-mahal-img-trending" ><img src="Traveller_s--images/Taj-mahal.jpg" alt=""> </button>
+                     <script type="text/javascript">
+                       document.getElementById("myButton-21").onclick = function () {
+                         window.location.href = "desk-taj-mahal.html";
+                           };
+                     </script>
+               </div>
+        </div>
+    </div>
+
+     <!-------------- section-6-Indian-places-location-end ----------->
+
+  
+  <!-------------- section-7-property-categories-starting----------->
+
+   <div class="section-7-property-category-main">
+    <div class="section-7-main">
+            <div class="section-7-pro-cat-1">
+                <h1>Browse by property type</h1>
+            </div>
+            <div class="section-7-pro-cat-2">
+                   <img src="Traveller_s--images/exclusive-tents.jpeg" alt="">
+                   <img src="Traveller_s--images/kerala-houseboat.png" alt="">
+                   <img src="Traveller_s--images/ryoken.webp" alt="">
+                   <img src="Traveller_s--images/holiday.jpg" alt="">
+                   <img src="Traveller_s--images/hotel.webp" alt="">
+                   <img src="Traveller_s--images/farmhouse.jpg" alt="">
+             </div>
+      </div>
+  </div> 
+     
+<!-------------- section-7-property--categories-end ----------->
+
+
+ <!-------------- section-8-add-section-starting----------->
+                <div class="section-8-add">
+                     <img src="Traveller_s--images/Ad-banner-01.png" alt="">
+                </div>
+  <!-------------- section-8-add-section-end--------------->
+
+
+  <!-------------- section-9-international-categories-starting----------->
+
+  <div class="section-9-international-main">
+    <div class="section-9-international">
+            <div class="section-9-international-1">
+                <h1>Best Places to Visit Outside India</h1>
+                <h4 style="color: #595979;">World's Best Places to Visit - Pack your bags to enter a world full of possibilities. See some endangered species of flora and fauna, taste a new kind of cuisine.</h4>
+            </div>
+            <div class="section-9-international-2">
+              <!-- <button id="myButton-22"  ><img src="Traveller_s--images/sydney-australia.jpg" alt=""> </button>
+              <script type="text/javascript">
+                document.getElementById("myButton-22").onclick = function () {
+                  window.location.href = "hoi.html";
+                    };
+              </script>
+               <button id="myButton-23"  ><img src="Traveller_s--images/tokyo-japan.jpg" alt=""> </button>
+               <script type="text/javascript">
+                 document.getElementById("myButton-23").onclick = function () {
+                   window.location.href = "hoi.html";
+                     };
+               </script>
+                <button id="myButton-24"  ><img src="Traveller_s--images/istanbul.jpg" alt=""> </button>
+                <script type="text/javascript">
+                  document.getElementById("myButton-24").onclick = function () {
+                    window.location.href = "hoi.html";
+                      };
+                </script>
+                 <button id="myButton-25"  ><img src="Traveller_s--images/bali.webp" alt=""> </button>
+                 <script type="text/javascript">
+                   document.getElementById("myButton-25").onclick = function () {
+                     window.location.href = "hoi.html";
+                       };
+                 </script>
+                  <button id="myButton-26" ><img src="Traveller_s--images/Bentota-srilanka.jpg" alt=""> </button>
+                  <script type="text/javascript">
+                    document.getElementById("myButton-26").onclick = function () {
+                      window.location.href = "hoi.html";
+                        };
+                  </script>
+                   <button id="myButton-27" ><img src="Traveller_s--images/colombo-srilanka.jpg" alt=""> </button>
+                   <script type="text/javascript">
+                     document.getElementById("myButton-27").onclick = function () {
+                       window.location.href = "hoi.html";
+                         };
+                   </script>
+                    <button id="myButton-28"  ><img src="Traveller_s--images/Singapore.jpg" alt=""> </button>
+                    <script type="text/javascript">
+                      document.getElementById("myButton-28").onclick = function () {
+                        window.location.href = "hoi.html";
+                          };
+                    </script>
+                     <button id="myButton-29" ><img src="Traveller_s--images/pattaya-city.jpg" alt=""> </button>
+                     <script type="text/javascript">
+                       document.getElementById("myButton-29").onclick = function () {
+                         window.location.href = "hoi.html";
+                           };
+                     </script>
+                      <button id="myButton-30" ><img src="Traveller_s--images/Kuala-lumper.jpg" alt=""> </button>
+                      <script type="text/javascript">
+                        document.getElementById("myButton-30").onclick = function () {
+                          window.location.href = "hoi.html";
+                            };
+                      </script> -->
+
+                 <img src="Traveller_s--images/sydney-australia.jpg" alt="">
+                 <img src="Traveller_s--images/tokyo-japan.jpg" alt="">
+                 <img src="Traveller_s--images/istanbul.jpg" alt="">
+                 <img src="Traveller_s--images/bali.webp" alt="">
+                 <img src="Traveller_s--images/Bentota-srilanka.jpg" alt="">
+                 <img src="Traveller_s--images/colombo-srilanka.jpg" alt="">
+                 <img src="Traveller_s--images/Singapore.jpg" alt="">
+                 <img src="Traveller_s--images/pattaya-city.jpg" alt="">
+                 <img src="Traveller_s--images/Kuala-lumper.jpg" alt="">
+             </div>
+      </div>
+  </div>
+     
+ <!-------------- section-9-international-categories-end----------->
+
+
+      <!---------------- section-10-customer-feedback-start------------>
+       <div class="section-10-customer-feedback">
+             <div class="section-customer-feedback-main-1">
+                  <h2>Overheard from travelers</h2>
+             </div>
+             <div class="section-customer-feedback-main-2">
+                      <div class="feedback-customer-1">
+                          <h3 style="color: #008CFF;">Taj Mahal Palace, India</h3>
+                          <h4 style="color: #000000;">“We all enjoyed the stay at this luxury hotel, and the children loved the swimming pool.”</h4>
+                          <h5 style="color: #737373;">-Ritesh Aggarwal,India</h5>
+                      </div>
+                      <div class="feedback-customer-2">
+                        <h3 style="color: #008CFF;">The Plaza, New York</h3>
+                        <h4 style="color: #000000;">"It was a great experience! highly recommend."</h4>
+                        <h5 style="color: #737373;">-Michele,USA</h5>
+                      </div>
+                      <div class="feedback-customer-3">
+                        <h3 style="color: #008CFF;">Hotel Ritz Paris</h3>
+                        <h4 style="color: #000000;">"Everything about our stay at the Ritz was exceptional. The hotel is beautiful, and the staff are absolutely amazing, down to every detail."</h4>
+                        <h5 style="color: #737373;">-VinoVeritasZZ,California.</h5>
+                      </div>
+             </div>
+     </div>
+      <!---------------- section-10-customer-feedback-end---------------->
+
+
+       <!---------------- section-11-all-world-places-name-start---------------->
+      <div class="section-11-all-world-places-name">
+               <div class="section-11-main-box">
+                    <div class="section-11-div-1">
+                        <h4>Destination cities</h4>
+                        <h4>Asia</h4>
+                      <ul> 
+                        <li>Bali Hotels</li>
+                        <li>Bandung Hotels</li>
+                        <li>Bangkok Hotels</li>
+                        <li>Busan Hotels</li>
+                        <li>Cebu Hotels</li>
+                        <li>Hong Kong Hotels</li>
+                        <li>Hua Hin Hotels</li>
+                        <li>Ipoh Hotels</li>
+                        <li>Jakarta Hotels</li>
+                        <li>Kota Hotels</li>
+                        <li>Kyoto Hotels</li>
+                        <li>Krabi Hotels</li>
+                        <li>Tokyo Hotels</li>
+                        <li>Osaka Hotels</li>
+                        <li>Manila Hotels</li>
+                        <li>Macau Hotels</li>
+                        <li>Yilan Hotels</li>
+                        <li>Singapore Hotels</li>
+                      </ul>
+                    </div>
+                   <div class="section-11-div-2">
+                      <h4>Europe</h4>
+                      <ul> 
+                      <li>London Hotels</li>
+                      <li>paris Hotels</li>
+                      <li>Austria Hotels</li>
+                      <li>Czech Republic Hotels</li>
+                      <li>Denmark Hotels</li>
+                      <li>Finland Hotels</li>
+                      <li>France Hotels</li>
+                      <li>Germany Hotels</li>
+                      <li>Greece Hotels</li>
+                      <li>Hungary Hotels</li>
+                      <li>Ireland Hotels</li>
+                      <li>Italy Hotels</li>
+                      <li>Netherland Hotels</li>
+                      <li>Russia Hotels</li>
+                      <li>Spain Hotels</li>
+                      <li>Sweden Hotels</li>
+                      <li>Switzerland Hotels</li>
+                      <li>United Kingdom Hotels</li>
+                    </ul>
+                  </div>
+
+                    <div class="section-11-div-3">
+                      <h4>Countries & Territories</h4>
+                      <h4>Africa</h4>
+                      <ul> 
+                        <li>Morocco Hotels</li>
+                        <li>South Africa Hotels</li>
+                      </ul>
+                      <h4>Asia</h4>
+                      <ul> 
+                        <li>Cambodia Hotels</li>
+                        <li>China Hotels</li>
+                        <li>India Hotels</li>
+                        <li>Indonesia Hotels</li>
+                        <li>India Hotels</li>
+                        <li>Japan Hotels</li>
+                        <li>Laos Hotels</li>
+                        <li>Malaysia Hotels</li>
+                        <li>Myanmar Hotels</li>
+                        <li>Nepal Hotels</li>
+                        <li>Philippines Hotels</li>
+                        <li>South Korea Hotels</li>
+                        <li>Sri Lanka Hotels</li>
+                        <li>Taiwan Hotels</li>
+                      </ul>
+                    </div>
+                  <div class="section-11-div-4">
+                    <h4>Americas</h4>
+                    <ul> 
+                      <li>Argentina Hotels</li>
+                      <li>Brazil Hotels</li>
+                      <li>Canada Hotels</li>
+                      <li>Mexico Hotels</li>
+                      <li>United States Hotels</li>
+                      <li>Venezula Hotels</li>
+                    </ul>
+                  <h4>Middle East</h4>
+                    <ul> 
+                     <li>Dubai Hotels</li>
+                     <li>Bahrain Hotels</li>
+                     <li>Egypt Hotels</li>
+                     <li>Israel Hotels</li>
+                     <li>United Arab Emirates Hotels</li>
+                   </ul>
+                  </div>
+                   <div class="section-11-div-5">
+                      <h4>Travellers Homes</h4>
+                      <h4>Asia Apartments</h4>
+                      <ul> 
+                        <li>Bangkok Apartments</li>
+                        <li>Kuala Lumpur Apartments</li>
+                        <li>Manila Apartments</li>
+                        <li>Osaka Apartments</li>
+                        <li>Pattaya Apartments</li>
+                        <li>Tokyo Apartments</li>
+                      </ul>
+                      <h4>Asia Bungalows</h4>
+                      <ul> 
+                        <li>Bali Bungalows</li>
+                        <li>Koh Kood Bungalows</li>
+                        <li>Koh Lanta Bungalows</li>
+                        <li>Koh Phangan Bungalows</li>
+                        <li>Koh Samet Bungalows</li>
+                        <li>Phu Quoc Island Bungalows</li>
+                      </ul>
+                      <h4>Asia Villas</h4>
+                      <ul> 
+                        <li>Bali Villas</li>
+                        <li>Phuket Villas</li>
+                        <li>Pattaya Villas</li>
+                      </ul>
+                    </div>
+                    
+               </div>
+   </div>  
+
+      <!---------------- section-11-all-world-places-name-end---------------->
+
+
+
+      <!-----------------------section-12-footer--- starting------------------>
+  <div class="section-12-footer">
+    <div class="footer-slogans">
+      <h3 style="color: black;">  <p class="item-1">“Adventure is a mindset, not a destination.”</p></h3>
+      <h3 style="color: black;">  <p class="item-2">“The best view comes after the hardest climb.”</p></h3>
+      <h3 style="color: black;">  <p class="item-3">“Wherever you go, go with all your heart.”</p> </h3>
+        <div class="follow-us">
+             <div class="follow-us-name">
+              <h3 style="color: black;">Follow us</h3>
+             </div>
+             <div class="follow-us-website-logos">
+                  <div class="facebook">
+                    <img src="Traveller_s--images/facebook-desk.png" alt="">
+                  </div>
+                  <div class="twitter">
+                    <img src="Traveller_s--images/twitter desk.png" alt="">
+                  </div>
+                  <div class="instagram">
+                    <img src="Traveller_s--images/instagram desk.png" alt="">
+                  </div>
+            </div>
+            
+             
+        </div>
+    </div>
+         <div class="more-info-section">
+                <div class="more-info-section-1">
+                         <div class="more-info-sec-1-1">
+                           <h3>Traveller_s</h3>
+                         </div>
+                         <div class="more-info-sec-1-2">
+                            <h5>Privacy and Terms</h5>
+                         </div>
+                         <div class="more-info-sec-1-3">
+                           <h5>About Travellers</h5>
+                         </div>
+                         <div class="more-info-sec-1-4">
+                           <h5>Products</h5> 
+                         </div>
+                         <div class="more-info-sec-1-5">
+                             <h5>Help</h5>
+                         </div>
+                </div>
+                <div class="more-info-section-2">
+                  <h3>All material<span>&copy; 2024 Travellers company Pvt.Ltd.All Rights Reserved </span> </h3>
+                </div>
+         </div>
+
+                        
+ </div>  
+
+
+
+    <!-----------------------section-12-footer-end------------------>
+
+
+
+
+  <!--*******************************-Desktop-view-end-****************************---------- -->
+
+
+  
+
+ 
+
+      <!-- -----------------------------html-code-mobile-viwe-starting------------------------ -->
+
+     <!-- ----------- section-1 formobile logo-cart-login-section starting------------ -->
+      <div class="nav_bar_section-1-mobile">
+      
+        <div class="logo-mobile">
+          <img src="Traveller_s--images/travellers-mobile-logo.png" alt="" />
+        </div>
+        <div class="cart-mobile">
+          <img src="Traveller_s--images/shopping-cart.png" alt="" />
+        </div>
+        <div class="drop-menu-mobile">
+          <img src="Traveller_s--images/menu-bar-mobile-1.png" alt="" />
+        </div>
+      </div>
+   <!-- ----------- section-1 formobile logo-cart-login-section end------------ -->
+     
+    <!-- ----------- section- for mobile lower logos section starting------------ -->
+   <div class="lower-logos-mobile">
+        <div class="lower-logos-mobile-1">
+          <div class="flight-icon-mobile">
+            <img src="Traveller_s--images/airplane (2).png" alt="" />
+            <h3>Flights</h3>
+          </div>
+          <div class="hotel-icon-mobile">
+            <img src="Traveller_s--images/review.png" alt="" />
+            <h3>Hotels</h3>
+          </div>
+          <div class="homestays-icon-mobile">
+            <img src="Traveller_s--images/train (2).png" alt="" />
+            <h3>Homestays</h3>
+          </div>
+          <div class="holydays-icon-mobile">
+            <img src="Traveller_s--images/sunbed.png" alt="" />
+            <h3>Holidays</h3>
+          </div>
+        </div>
+
+
+      <div class="lower-logos-mobile-2">
+              <div class="destination-search-bar">
+                   <div class="des-tni-icon">
+                         <img src="Traveller_s--images/search-icon.png" alt="">
+                  </div>
+                  <div class="des-tni-search-bar">
+                         <div class="destinayion-mob-from">
+                          <h6 style="color: #74767A ;">From</h6>
+                            <select class="form-control" id="desti-place-mob-select-from">
+                                 <option value="M">Mumbai</option>
+                                 <option value="US">Delhi</option>
+                                 <option value="KE">Goa</option>
+                                 <option value="UK">Shimla</option>
+                                 <option value="IN">Manali</option>
+                              </select>
+                         </div>
+                         <div class="destination-mob-to">
+                             <h6 style="color: #74767A ;">To</h6>
+                             <select class="form-control" id="desti-place-mob-select-to">
+                               <option value="KE">Goa</option>
+                               <option value="UK">Shimla</option>
+                               <option value="IN">Manali</option>
+                               <option value="M">Mumbai</option>
+                               <option value="US">Delhi</option>
+                              </select>
+                         </div>
+                   </div>
+              </div>
+              <div class="check-in-out-bar">
+                         <div class="check-in">
+                                 <div class="check-in-icon">
+                                      <img src="Traveller_s--images/check-in.png" alt="">
+                                 </div>
+                                 <div class="check-in-icon-search">
+                                    <h5 style="color: #74767A ;">Check in</h5>
+                                      <h3 style="color: #0E5EEC;">22 March</h3>
+                                 </div> 
+                         </div>
+                         <div class="check-out">
+                                 <div class="check-out-icon">
+                                      <img src="Traveller_s--images/check-out.png" alt="">
+                               </div>
+                               <div class="check-out-icon-search">
+                                       <h5 style="color: #74767A ;">Check out</h5>
+                                       <h3 style="color: #0E5EEC;">28 March</h3>
+                               </div>
+                         </div>
+              </div>
+              <div class="checkin-room-adult-children">
+                 <div class="r-a-c-icon">
+                     <img src="Traveller_s--images/person-search.png" alt="">
+                </div>
+                <div class="r-a-c-search-bar">
+                      <select class="form-control" id="r-a-c-search-bar-mob-select">
+                          <option value1="KE">1 Room,1 Adult,0 Children</option>
+                          <option value1="KE">1 Room,2 Adult,1 Children</option>
+                          <option value1="KE">2 Room,3 Adult,1 Children</option>
+                          <option value1="KE">3 Room,4 Adult,2 Children</option>
+                   </select>
+               </div>
+              </div>
+              <div class="check-in-search-bar">
+                  <h3 style="color:white;">SEARCH</h3>
+              </div>
+
+     </div>
+    </div>
+ <!-- ----------- section- for mobile lower logos section end------------ -->
+
+<!-- ----------- section- for mobile slidebar add section starting------------ -->
+      <div class="container-mobile">
+        <div class="wapper-mobile"> 
+          <img src="Traveller_s--images/goa banner-1.png" alt="" />
+          <img src="Traveller_s--images/goa-beach-banner-2.jpg" alt="" />
+          <img src="Traveller_s--images/japan-poster-1.png" alt="" />
+          <img src="Traveller_s--images/Australia-travel-guide-V2-1920x500.jpg" alt="" />
+    
+        </div>
+      </div>
+
+<!-- ----------- section- for mobile lower logos section end------------ -->
+
+<!-- ----------- section- for mobile offers section start------------ -->
+     <div class="offers-mobile-view">
+          <div class="offers-name">
+             <h3>OFFERS</h3>
+          </div>
+          <div class="offers-main">
+                   <img src="Traveller_s--images/indigo-coupons.jpg" alt="">
+                   <img src="Traveller_s--images/offer-33.jpg" alt="">
+                   <img src="Traveller_s--images/buy4_500_300-1.jpg" alt="">
+                   <img src="Traveller_s--images/RedBus-offfer.png" alt="">
+          </div>
+         
+     </div>
+<!-- ----------- section- for mobile offers section end------------ -->
+
+<!-- ----------- section- for mobile destination section start------------ -->
+<div class="destination-mobile-view">
+  <div class="destination-name">
+     <h3>WHERE2GO</h3>
+  </div>
+  <div class="site-1">
+    
+      <button id="myButton-5" class="float-left submit-button" ><img src="Traveller_s--images/karnataka.jpg" alt="">
+               
+      </button>
+      
+          <script type="text/javascript">
+            document.getElementById("myButton-5").onclick = function () {
+              window.location.href = "hoi.html";
+                };
+          </script>
+  </div>
+  <div class="site-2">
+    <button id="myButton-6" class="float-left submit-button" ><img src="Traveller_s--images/madhya_pradesh.jpg" alt="">
+     
+   </button>
+
+    <script type="text/javascript">
+      document.getElementById("myButton-6").onclick = function () {
+        window.location.href = "hoi.html";
+          };
+    </script>
+  </div>
+  <div class="site-3">
+    <button id="myButton-7" class="float-left submit-button" ><img src="Traveller_s--images/rajasthan.jpg" alt="">
+     
+    </button>
+
+    <script type="text/javascript">
+      document.getElementById("myButton-7").onclick = function () {
+        window.location.href = "hoi.html";
+          };
+    </script>
+  </div>
+ 
+</div>
+<!-- ----------- section- for mobile destination section end------------ -->
+
+
+<!-- ----------- section- for mobile banner section start------------ -->
+     <div class="banner-visit">
+        <img src="Traveller_s--images/dubai-offer-1.jpg" alt="">
+     </div>
+<!-- ----------- section- for mobile banner section end------------ -->
+
+
+
+<!-- ----------- section- for mobile follow-us section start------------ -->
+   <div class="follow-us-mobile">
+            <div class="follow-us-mobile-icon">
+                  <div class="twitter-mobile">
+                      <img src="Traveller_s--images/twitter-mobile.png" alt="">
+                  </div>
+                  <div class="facebook-mobile">
+                      <img src="Traveller_s--images/facebook-mobile.png" alt="">
+                  </div>
+                  
+                  
+            </div>
+         <img class id="get-it-mac-plalstore" src="Traveller_s--images/get_it_on_playstore-mac-removebg-preview.png" alt=""> 
+         <h3><span>&copy; 2024 TRAVELLERS PVT.LTD.</span> </h3>
+   </div>
+<!-- ----------- section- for mobile follow-us section end------------ -->
+
+
+
+
+
+      <!-- -----------------------------html-code-mobile-viwe end------------------------ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <!-- -----------------------------html-code-tablet-viwe-start------------------------ -->
+     
+        <!-- -----------------------------html-code-tablet-viwe-end------------------------ -->
+
+
+
+
+
+
+
+    </div>
+  </body>
+</html>

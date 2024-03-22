@@ -1,0 +1,2869 @@
+  /* ------------------CSS and mediaquery for Dsektop view------------ */
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+   }
+
+   /* ---------Starting media query for above 1024 pixal view---------- */
+@media (min-width: 1024px) and (max-width: 1540px){
+.wrapper
+{
+min-height: 500px;
+  width: 100%;
+ display:flex;
+ flex-direction: column;
+}   
+         /* <!-- Nav -bar starting---- -->  */
+         /* <!-- for traveller logo---- -->  */
+         .nav_bar_section-1
+         {
+         height:8vh;
+        width: 100%; 
+        /* background-color:#E5E7E9;  */
+        position:absolute;
+        display:flex;
+        flex-direction: row;
+        background-color: #FFFFFF;
+        box-shadow: 2px 0px 5px #DEE0ED;
+        border: 1px solid gray;
+         }
+         .logo-section{
+          height: 90%;
+          width: 180px;
+          margin-left: 5%;
+          margin-top: 2px;
+          /* border: 1px solid #000; */
+          }
+          .logo-section img{
+          height: 100%;
+          width: 100%;
+          cursor:pointer;
+          }
+
+        /* <!-- traveller logo end ---- --> */
+
+  /* <!-- --support-center-bar starting--- --> */
+
+  .support-center-bar-new{
+    height: 56%;
+    width:8%;
+    margin-left:10%;
+    margin-top: 16px;
+    /* border: 1px solid #000; */
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+   } 
+   .new-img{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid #000; */
+   }
+   .new-img img{
+    height: 90%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    /* border: 1px solid #000; */
+   }
+   .new-name{
+    height: 100%;
+    width: 48%;
+    /* border: 1px solid #000; */
+   }
+   .new-name h3{
+    font-family: "Poppins", sans-serif;
+    margin-left: 8%;
+    margin-top: 4px;
+    font-size: 80%;
+    font-weight: 400;
+   }
+   .downarrow1{
+height: 100%;
+width:28%;
+/* border: 1px solid #000; */
+   }
+ #downArrow1{
+  height: 10px;
+  width: 10px;
+  margin-top: 10px;
+  margin-left:30%;
+ }
+   .support-center-bar-premium-manage{
+    height: 56%;
+    width:9%;
+    margin-left:1%;
+    margin-top: 16px;
+    /* border: 1px solid #000; */
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+   }  
+   .manage-img{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid #000; */
+   }
+   .manage-img img{
+    height: 90%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    /* border: 1px solid #000; */
+   }
+   .manage-name {
+    height: 100%;
+    width: 70%;
+    /* border: 1px solid #000; */
+   }
+   .manage-name  h3{
+    font-family: "Poppins", sans-serif;
+  margin-left: 8%;
+  margin-top: 4px;
+  font-size: 80%;
+  font-weight: 400;
+   }
+   .downarrow2{
+    height: 100%;
+    width:28%;
+    /* border: 1px solid #000; */
+       }
+     #downArrow2{
+      height: 10px;
+      width: 10px;
+      margin-top: 10px;
+      margin-left:30%;
+     }
+  .support-center-bar-insurance {
+    height: 56%;
+    width:10%;
+    margin-left:1%;
+    margin-top: 16px;
+    /* border: 1px solid #000; */
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+  }
+  .insurance-img{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid #000; */
+   }
+   .insurance-img img{
+    height: 90%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    /* border: 1px solid #000; */
+   }
+   .insurance-name {
+    height: 100%;
+    width: 70%;
+    /* border: 1px solid #000; */
+   }
+   .insurance-name  h3{
+    font-family: "Poppins", sans-serif;
+  margin-left: 8%;
+  margin-top: 4px;
+  font-size: 80%;
+  font-weight: 400;
+   }
+   .downarrow3{
+    height: 100%;
+    width:28%;
+    /* border: 1px solid #000; */
+       }
+     #downArrow3{
+      height: 10px;
+      width: 10px;
+      margin-top: 10px;
+      margin-left:30%;
+     }
+   /* <!-- --support-center-bar end--- --> */
+  
+
+ /* <!-- --login ,menu and cart section starting--- --> */
+.sign-in-button{
+  height:68%;
+  width:18%;
+margin-top: 10px;
+  margin-left:5%;
+  /* border: 1px solid #000; */
+}
+.sign-in {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+}
+.sign-in {
+/* background-color: #2F4AF8; */
+background-color: white;
+  border: 1px solid#0354CE;
+border: 3px solid #0E5EEC;
+}
+.sign-in:hover {
+  box-shadow: 0 0 20px silver;
+  /* background-color:#1228B7; */
+}
+
+
+ /* <!-----------code for login-page-starting----------- --> */
+
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 4px;
+  }
+  /* input[type=submit] {
+    width: 100%;
+    height: 6vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border: 1px solid #000;
+  } */
+  .submit{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background-color:#CEDAF5;
+    border-radius: 4px;
+  }
+  /* Set a style for all buttons */
+   .Sign-in button {
+    background-color:#2F4AF8;
+    color: white;
+    /* padding: 14px 20px;
+    margin: 8px 0;
+    border: none; */
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #000;
+  }
+  
+  /* button:hover {
+    opacity: 0.8;
+  }
+   */
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    /* border: 1px solid #000; */
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+    /* border: 1px solid #000; */
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    /* border: 1px solid #000; */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    height:55vh;
+    width: 46%; /* Could be more or less, depending on screen size */
+    /* border: 1px solid #000; */
+    border-radius: 10px;
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    
+    }
+  }
+
+  /* <!-----------code for login-page-ending----------- --> */
+
+
+
+
+.cart-button{
+  height:100%;
+  width: 4%;
+  margin-left: 5%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+}
+.cart-button video{
+  /* height:100%;
+  width: 42%;
+  margin-top: 1px;
+  margin-left: 10px;
+  transition: transform 330ms ease-in-out;
+  border: 1px solid #000;
+  cursor: pointer; */
+margin-top: 4px;
+margin-left:5px;
+}
+/* .cart-button img:hover{
+  transform: translate(28px, 0);
+} */
+
+.menu-button{
+  height:56%;
+  width: 32px;
+  margin-top: 14px;
+  margin-left:4%;
+  /* border: 1px solid #000; */
+  position: relative;
+  /* display: inline-block; */
+}
+.menu-button img{
+  height: 28px;
+  width: 30px;
+  margin-top: -34px;
+  margin-left: -16px;
+ transition: transform 330ms ease-in-out; */
+  /* border: 1px solid #000;
+  /* margin-top: -13px;
+  margin-left: -15px; */
+}
+.menu-button-moblie{
+  display: none;
+}
+.menu-button img:hover {
+  transform: rotate(90deg);
+}
+.dropbtn {
+  background-color:transparent;
+  /* color: white; */
+  height: 30px;
+  width: 30px;
+  margin-top: -3px;
+  margin-left: 0px;
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  /* border: 1px solid #000; */
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 6px;
+  background-color: #EFEDFA;
+  margin-top: -2px;
+  font-size: 14px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  border-radius: 6px;
+
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.menu-button:hover .dropdown-content {
+  display: block;
+
+}
+.menu-button:hover .dropbtn {
+  background-color:transparent;
+}
+
+/* <!-- --login ,menu and cart section end--- --> */
+.back  img{
+  margin-top: -10px;
+  height: 600px;
+  width: 100%;
+}  
+
+/* <!-- --sub-nav-bar-starting section starting--- --> */
+
+.sub-nav-bar-main{
+  margin-top: 72px;
+  height: 55vh;
+  width: 90%; 
+  /* border: 1px solid #000; */
+  position:absolute;
+  margin-left: 70px;
+  border-radius: 6px;
+}
+.sub-nav-bar-main-window{
+  height: 40vh;
+  width: 100%;
+  margin-top: 12vh;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+.sub-nav-bar-main-window-1{
+height:24%;
+width: 100%;
+margin-top: 7px;
+/* border: 1px solid #000; */
+display: flex;
+flex-direction: row;
+}
+.sub-nav-bar-main-window-1-flight{
+  height: 60%;
+  width: 8%;
+  margin-top: 18px;
+  margin-left: 1%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+  display: flex;
+flex-direction: row;
+}
+.flight-desk-1{
+  height: 100%;
+  width: 40%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+}
+.flight-desk-1 img{
+  height: 100%;
+  width: 100%;
+}
+.flight-desk-2{
+  height: 100%;
+  width: 68%;
+  /* border: 1px solid #000; */
+}
+.flight-desk-2 h4{
+  margin-top: 9px;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* --------------------------------------------------- */
+.sub-nav-bar-main-window-1-hotel{
+  height: 60%;
+  width: 8%;
+  margin-top: 18px;
+  margin-left: 1%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+  display: flex;
+flex-direction: row;
+}
+.hotels-desk-1{
+  height: 100%;
+  width: 40%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+}
+.hotels-desk-1 img{
+  height: 100%;
+  width: 100%;
+}
+.hotels-desk-2{
+  height: 100%;
+  width: 68%;
+  /* border: 1px solid #000; */
+}
+.hotels-desk-2 h4{
+  margin-top: 9px;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* --------------------------------------------------- */
+.sub-nav-bar-main-window-1-train{
+  height: 60%;
+  width: 8%;
+  margin-top: 18px;
+  margin-left: 1%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+  display: flex;
+flex-direction: row;
+}
+.trains-desk-1{
+  height: 100%;
+  width: 40%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+}
+.trains-desk-1 img{
+  height: 100%;
+  width: 100%;
+}
+.trains-desk-2{
+  height: 100%;
+  width: 68%;
+  /* border: 1px solid #000; */
+}
+.trains-desk-2 h4{
+  margin-top: 9px;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* --------------------------------------------------- */
+.sub-nav-bar-main-window-1-bus{
+  height: 60%;
+  width: 8%;
+  margin-top: 18px;
+  margin-left: 1%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+  display: flex;
+flex-direction: row;
+}
+.buses-desk-1{
+  height: 100%;
+  width: 40%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+}
+.buses-desk-1 img{
+  height: 100%;
+  width: 100%;
+}
+.buses-desk-2{
+  height: 100%;
+  width: 68%;
+  /* border: 1px solid #000; */
+}
+.buses-desk-2 h4{
+  margin-top: 9px;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* --------------------------------------------------- */
+.sub-nav-bar-main-window-1-taxi{
+  height: 60%;
+  width: 8%;
+  margin-top: 18px;
+  margin-left: 1%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+  display: flex;
+flex-direction: row;
+}
+.taxi-desk-1{
+  height: 100%;
+  width: 40%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+}
+.taxi-desk-1 img{
+  height: 100%;
+  width: 100%;
+}
+.taxi-desk-2{
+  height: 100%;
+  width: 68%;
+  /* border: 1px solid #000; */
+}
+.taxi-desk-2 h4{
+  margin-top: 9px;
+  margin-left: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* --------------------------------------------------- */
+
+.sub-nav-bar-main-window-1-more-info{
+  height: 60%;
+  width: 25%;
+  margin-top: 18px;
+  margin-left: 28%;
+  /* border: 1px solid #000; */
+  display: flex;
+flex-direction: row;
+}
+.sub-nav-bar-main-window-1-more-info h3{
+  margin-top: 9px;
+  text-align: center;
+  margin-left: 18%;
+  font-family: "Poppins", sans-serif;
+  font-size:90%;
+  font-weight: 500;
+}
+
+
+/* --------------------------------------------------- */
+
+
+
+
+
+.sub-nav-bar-main-window-2{
+  height:72%;
+  width: 100%;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+}
+/* --------------------------------------------------- */
+.sub-nav-bar-main-window-2-1{
+  height:26%;
+  width: 100%;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: row;
+}
+.one-way-trip-desk{
+height: 78%;
+width: 8%;
+margin-top: 6px;
+margin-left: 1%;
+/* border: 1px solid #000; */
+}
+#one-way-trip-desk-button{
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  border-radius:50px;
+  border: 1px solid #91959A;
+}
+#one-way-trip-desk-button h3{
+  text-align: center;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+#one-way-trip-desk-button:focus{
+  color:#0770E4;
+  border: 2px solid #0770E4;
+}
+/* --------------------------------------------------- */
+
+.Round-way-trip-desk{
+  height: 78%;
+  width: 8%;
+  margin-top: 6px;
+  margin-left: 1%;
+  /* border: 1px solid #000; */
+  }
+  #Round-way-trip-desk-button{
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    border-radius:50px;
+    border: 1px solid #91959A;
+  }
+  #Round-way-trip-desk-button h3{
+    text-align: center;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  #Round-way-trip-desk-button:focus{
+    color:#0770E4;
+    border: 2px solid #0770E4;
+  }
+  /* --------------------------------------------------- */
+.text-animation-desk{
+  height: 100%;
+  width: 35%;
+  margin-left: 47%;
+  /* border: 1px solid #000; */
+}
+.text-animation-desk video{
+  margin-left: 80%;
+}
+/* --------------------------------------------------- */
+.sub-nav-bar-main-window-2-2{
+  height:34%;
+  width: 100%;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: row;
+}
+.s-n-b-m-w-2-2-1{
+  height:90%;
+  width: 22%;
+  margin-top: 0%;
+  margin-left: 8px;
+  background-color: #EFEFF0;
+  border-radius: 6px 0px 0px 6px;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: row;
+}
+.from-desk-1{
+height: 100%;
+width: 26%;
+/* border: 1px solid #000; */
+}
+.from-desk-1 h4{
+  margin-top: 14px;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+.from-desk-2{
+  height: 100%;
+width:74%;
+/* border: 1px solid #000; */
+}
+select{
+  font-size: 0.9rem;
+  padding: 2px 5px;
+  height: 100%;
+  width: 100%;
+  background-color: #EFEFF0;
+  border: none;
+}
+option[value] { 
+  background-color:lightgray;
+  font-size: 18px;
+}
+
+/* --------------------------------------------------- */
+.s-n-b-m-w-2-2-2{
+  height: 90%;
+  width: 22%;
+  margin-top: 0%;
+  margin-left: 2px;
+  background-color: #EFEFF0;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: row;
+}
+.to-desk-1{
+  height: 100%;
+  width: 26%;
+  /* border: 1px solid #000; */
+  }
+  .to-desk-1 h4{
+    margin-top: 14px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .to-desk-2{
+    height: 100%;
+  width:74%;
+  /* border: 1px solid #000; */
+  }
+/* --------------------------------------------------- */
+.s-n-b-m-w-2-2-3{
+  height: 90%;
+  width: 14%;
+  margin-top: 0%;
+  margin-left: 2px;
+  background-color: #EFEFF0;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+}
+.departure-desk-1{
+height: 30%;
+width: 100%;
+/* border: 1px solid #000; */
+}
+.departure-desk-1 h4{
+  margin-left: 3px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+.departure-desk-2{
+  height: 70%;
+  width: 100%;
+  /* border: 1px solid #000;  */
+}
+.departure-desk-2 h2{
+  margin-top: 4px;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+/* --------------------------------------------------- */
+
+.s-n-b-m-w-2-2-4{
+  height: 90%;
+  width: 14%;
+  margin-top: 0%;
+  margin-left: 2px;
+  background-color: #EFEFF0;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+}
+.arrival-desk-1{
+  height: 30%;
+  width: 100%;
+  /* border: 1px solid #000; */
+  }
+  .arrival-desk-1 h4{
+    margin-left: 3px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .arrival-desk-2{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid #000;  */
+  }
+  .arrival-desk-2 h2{
+    margin-top: 4px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  /* --------------------------------------------------- */
+.s-n-b-m-w-2-2-5{
+  height: 90%;
+  width: 14%;
+  margin-top: 0%;
+  margin-left: 2px;
+  background-color: #EFEFF0;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+}
+.travellers-class-desk-1{
+  height: 30%;
+  width: 100%;
+  /* border: 1px solid #000; */
+  }
+  .travellers-class-desk-1 h4{
+    margin-left: 3px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .travellers-class-desk-2{
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid #000;  */
+  }
+  .travellers-class-desk-2 h2{
+    margin-top: 4px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size:100%;
+    font-weight: 500;
+  }
+  /* --------------------------------------------------- */
+.s-n-b-m-w-2-2-6{
+  height: 90%;
+  width: 12%;
+  margin-top: 0%;
+  margin-left: 2px;
+  background-color: #33CCCC;
+  background-color: #0E5EEC ;
+  border-radius: 0px 6px 6px 0px;
+  border: 1px solid #000;
+}
+.s-n-b-m-w-2-2-6 h2{
+  margin-top: 12px;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.s-n-b-m-w-2-2-6:hover{
+background-color: #071DBF ;
+}
+  /* --------------------------------------------------- */
+.sub-nav-bar-main-window-2-3{
+  height:30%;
+  width: 100%;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: row;
+}
+.special-fare-optional-desk{
+height: 80%;
+width: 10%;
+margin-top: 4px;
+/* border: 1px solid #000; */
+}
+.special-fare-optional-desk h3{
+  margin-top: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+  /* --------------------------------------------------- */
+.special-fare-student-desk{
+  height: 50%;
+  width: 6%;
+  margin-top: 12px;
+  margin-left: 6px;
+  /* border: 1px solid #000; */
+}
+#special-fare-student-desk-button{
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  border-radius:50px;
+  border: 1px solid #91959A;
+}
+#special-fare-student-desk-button h3{
+  text-align: center;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+#special-fare-student-desk-button:focus{
+  color:#0770E4;
+  border: 2px solid #0770E4;
+}
+
+  /* --------------------------------------------------- */
+.special-fare-senior-citizen-desk{
+  height: 50%;
+  width: 9%;
+  margin-top: 12px;
+  margin-left: 6px;
+  /* border: 1px solid #000; */
+}
+#special-fare-senior-citizen-desk-button{
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  border-radius:50px;
+  border: 1px solid #91959A;
+}
+#special-fare-senior-citizen-desk-button h3{
+  text-align: center;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+#special-fare-senior-citizen-desk-button:focus{
+  color:#0770E4;
+  border: 2px solid #0770E4;
+}
+  /* --------------------------------------------------- */
+.special-fare-Armed-force-desk{
+  height: 50%;
+  width: 9%;
+  margin-top: 12px;
+  margin-left: 6px;
+  /* border: 1px solid #000; */
+}
+#special-fare-Armed-force-desk-button{
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  border-radius:50px;
+  border: 1px solid #91959A;
+}
+#special-fare-Armed-force-desk-button h3{
+  text-align: center;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+#special-fare-Armed-force-desk-button:focus{
+  color:#0770E4;
+  border: 2px solid #0770E4;
+}
+
+  /* --------------------------------------------------- */
+
+
+/* <!-- --sub-nav-bar-starting section end--- --> */
+
+
+
+/* <!-- --section-1-banner-starting--- --> */
+
+.section-banner-1-main{
+  margin-top: 210px;
+  width: 90%;
+  height:17vh;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  border-radius: 8px;
+  /* border: 1px solid #000; */
+}
+.section-1-1{
+  width:100%;
+  display: flex;
+  animation: slide 14s infinite;
+  /* border: 1px solid #000; */
+  cursor: pointer;
+}
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
+img{
+  width: 100%;
+}
+
+/* <!-- --section-1-banner-end--- --> */
+
+
+
+
+/* <!-- section-2-offers-starting-categories --> */
+.section-2-offers-main{
+  height:41vh;
+  width: 100%;
+  margin-top: 56px;
+  /* border: 1px solid #121212; */
+}
+.section-2-offers{
+  height: 100%;
+  width: 90%;
+  margin-left:5%;
+  border-radius: 10px;
+  /* border: 1px solid #000; */
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  */
+ display: flex;
+ flex-direction: column;
+ background-color:white;
+}
+.section-2-offers-1{
+  height: 16%;
+  width: 98%;
+  margin-top: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #000; */
+}
+.section-2-offers-1 h1{
+font-family: "Poppins", sans-serif;
+margin-left: 3px;
+margin-top: -5px;
+font-size: 130%;
+font-weight: 580;
+}
+.section-2-offers-1 h4{
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+  margin-top: -4px;
+  font-size: 70%;
+  font-weight: 500;
+  }
+.section-2-offers-2{
+  height: 78%;
+  width: 98%;
+  margin-top: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  display: flex;
+  overflow-y:hidden;
+  overflow-x: auto;
+  /* border: 1px solid #000; */
+}
+.section-2-offers-2::-webkit-scrollbar{
+  width: 0;
+}
+  .section-2-offers-2 img{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    height:96%;
+    width: 89%;
+    /* border: 1px solid #000; */
+    background-color: #FFFFFF;
+    box-shadow: 2px 3px 5px 1px #888888;
+  }
+
+/* <!-- section-2-offers-end-categories --> */
+
+
+/* <!-- section-3-why-book-with-travellers-starting --> */
+.why-book-with-travellers-main{
+  height: 23vh;
+  width: 90%;
+  margin-left: 5%;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+}
+.why-book-with-travellers-1{
+  height: 18%;
+  width: 98%;
+  margin-top: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #000; */
+}
+.why-book-with-travellers-1 h1{
+  font-family: "Poppins", sans-serif;
+  margin-left: 3px;
+  margin-top: -5px;
+  font-size: 130%;
+  font-weight: 580;
+  }
+.why-book-with-travellers-2{
+  height: 78%;
+  width: 98%;
+  margin-top: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid #000; */
+}
+.why-book-with-travellers-2 img{
+  margin-left: 5px;
+  margin-right: 9px;
+  margin-top: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  height:80%;
+  width: 24%;
+  cursor: pointer;
+  /* border: 1px solid #000; */
+  background-color: #FFFFFF;
+  box-shadow: 2px 3px 5px 1px #888888;
+}
+
+/* <!-- section-3-why-book-with-travellers-ending --> */
+
+
+/* <!-------------- section-4-Categories--Starting -----------> */
+.categories-section-4-main{
+  height:43vh;
+  width: 100%;
+  margin-top: 10px;
+  /* border: 1px solid #121212; */
+}
+.different-categories{
+  height: 100%;
+  width: 90%;
+  margin-left:5%;
+  border-radius: 10px;
+  /* border: 1px solid #000; */
+ display: flex;
+ flex-direction: column;
+ background-color:white;
+}
+.section-4-categories-name{
+  height: 16%;
+  width: 98%;
+  margin-top: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #000; */
+}
+.section-4-categories-name h1{
+  font-family: "Poppins", sans-serif;
+  margin-left: 3px;
+  margin-top: -5px;
+  font-size: 130%;
+  font-weight: 580;
+}
+.section-4-categories-name h4{
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+  margin-top: -2px;
+  font-size: 70%;
+  font-weight: 500;
+  }
+ 
+.section-4-categories-type-2{
+  height: 78%;
+  width: 98%;
+  margin-top: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  display: flex;
+  /* border: 1px solid #000; */
+}
+.section-4-categories-type-2 div{
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  height:98%;
+  width: 20%;
+  border: 1px solid gray;
+  background-color: #FFFFFF;
+  box-shadow: 2px 3px 5px 1px #888888;
+}
+  .section-4-categories-type-2 img{
+    margin-right: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    height:88%;
+    width: 100%;
+    /* border: 1px solid #000; */
+    background-color: #FFFFFF;
+  }
+  .section-4-categories-type-2 h4{
+  font-family: "Poppins", sans-serif;
+margin-top: -1px;
+margin-left: 3%;
+font-size: 90%;
+font-weight: 600;
+  }
+
+  /* <!-------------- section-4-Categories--end -----------> */
+
+
+  /* <!-------------- section-5-Download-App--Starting -----------> */
+.download-app-5-main{
+  height: 30vh;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+  border-radius: 10px;
+  /* border: 1px solid #000; */
+}
+.download-app-5-main img{
+  height: 100%;
+  width: 100%;
+  border-radius:10px;
+}
+/* <!-------------- section-5-Download-App--Starting -----------> */
+
+
+/* <!-------------- section-6-Indian-places-location-Starting -----------> */
+  .indian-best-places-6-main{
+height: 58vh;
+width: 100%;
+margin-top: 20px;
+/* border: 1px solid #000; */
+display:flex;
+flex-direction:column;
+  }
+.indian-best-places-6{
+  width: 90%;
+  margin-left:5%;
+  height: 100%;
+  border-radius: 10px;
+  /* border: 1px solid #000; */
+}
+.section-6-place-1{
+  height: 12%;
+  width: 98%;
+  margin-top: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #000; */
+}
+.section-6-place-1 h1{
+  font-family: "Poppins", sans-serif;
+  margin-left: 3px;
+  margin-top: -3px;
+  font-size: 130%;
+  font-weight: 580;
+  }
+  .section-6-place-1 h4{
+    font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+  margin-top: -1px;
+  font-size: 70%;
+  font-weight: 500;
+    }
+.section-6-place-2{
+      height: 48%;
+      width: 98%;
+      margin-left: 10px;
+      border-radius: 5px;
+      /* border: 1px solid #000; */
+      display: flex;
+      flex-direction: row;
+}
+.section-6-place-2 button{
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color:white;
+  }
+.section-6-place-2 button {
+/* border: 1px solid #000; */
+ }
+.section-6-place-2 button img{
+      /* border: 1px solid #000; */
+      height: 94%;
+      width: 98%;
+      border-radius: 6px;
+      cursor: pointer;
+}
+.section-6-place-3{
+  height: 37%;
+  width: 98%;
+  margin-top: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: row;
+}
+.section-6-place-3 button{
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color:white;
+  }
+  .section-6-place-3 button img{
+    /* border: 1px solid #000; */
+    height: 94%;
+    width: 98%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+/* <!-------------- section-6-Indian-places-location-end -----------> */
+
+
+
+
+/* <!--  section-7-property-categories-starting--> */
+.section-7-property-category-main{
+  height:35vh;
+  width: 100%;
+  margin-top:10px;
+  margin-top: 10px;
+  /* border: 1px solid #121212; */
+}
+.section-7-main{
+  height: 94%;
+  width: 90%;
+  margin-left:5%;
+  margin-top: 10px;
+  border-radius: 10px;
+  /* border: 1px solid #000; */
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  */
+ display: flex;
+ flex-direction: column;
+ background-color:white;
+}
+.section-7-pro-cat-1{
+  height: 14%;
+  width: 98%;
+  margin-top: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #000; */
+}
+.section-7-pro-cat-1 h1{
+font-family: "Poppins", sans-serif;
+margin-left: 3px;
+margin-top: -5px;
+font-size: 130%;
+font-weight: 580;
+}
+.section-7-pro-cat-2{
+  height: 83%;
+  width: 98%;
+  margin-left: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #000; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.section-7-pro-cat-2::-webkit-scrollbar{
+  width: 0;
+}
+  .section-7-pro-cat-2 img{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    height:92%;
+    width: 20%;
+    /* border: 1px solid #000; */
+    background-color: #FFFFFF;
+    display: inline-block;
+    box-shadow: 2px 3px 5px 1px #888888;
+  }
+
+/* <!--  section-7-property--categories-end --> */
+
+
+/* <!-------------- section-8-add-section-starting-----------> */
+.section-8-add{
+  height: 18vh;
+  width: 100%;
+  margin-top: 10px;
+  /* border: 1px solid #000; */
+}
+.section-8-add img{
+  height:100%;
+  width: 40%;
+margin-left: 30%;
+border-radius: 10px;
+  /* border: 1px solid #000; */
+}
+
+/* <!-------------- section-8-add-section-end---------------> */
+
+
+
+
+/* <!--   section-9-international-categories-starting--> */
+.section-9-international-main{
+  height:34vh;
+  width: 100%;
+  margin-top: 10px;
+  /* border: 1px solid #121212; */
+}
+.section-9-international{
+  height: 100%;
+  width: 90%;
+  margin-left:5%;
+  border-radius: 10px;
+  /* border: 1px solid #000; */
+ display: flex;
+ flex-direction: column;
+ background-color:white;
+}
+.section-9-international-1{
+  height: 17%;
+  width: 98%;
+  margin-top: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #000; */
+}
+.section-9-international-1 h1{
+font-family: "Poppins", sans-serif;
+margin-left: 3px;
+margin-top: -5px;
+font-size: 130%;
+font-weight: 580;
+}
+.section-9-international-1 h4{
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+  margin-top: -3px;
+  font-size: 70%;
+  font-weight: 500;
+  }
+.section-9-international-2{
+  height: 82%;
+  width: 98%;
+  margin-top: 6px;
+  margin-left: 10px;
+  border-radius: 5px;
+  display: flex;
+  overflow-y:hidden;
+  overflow-x: auto;
+  /* border: 1px solid #000; */
+}
+.section-9-international-2::-webkit-scrollbar{
+  width: 0;
+}
+  .section-9-international-2 img{
+    margin-left: 8px;
+    margin-right: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    height:100%;
+    width: 99%;
+    /* border: 1px solid #000; */
+    background-color: #FFFFFF;
+    box-shadow: 2px 3px 5px 1px #888888;
+  }
+  /* .section-9-international-2 button img{
+height: 100%;
+width: 100%;
+  } */
+/* <!--section-9-international-categories-end --> */
+
+
+
+
+/* <!-- section-10-customer-feedback-start --> */
+.section-10-customer-feedback{
+  /* border: 1px solid #000; */
+  height: 50vh;
+  width: 100%;
+}
+.section-customer-feedback-main-1{
+  /* border: 1px solid #000; */
+  height: 12%;
+  width: 80%;
+  margin-top: 4px;
+  margin-left: 10%;
+}
+.section-customer-feedback-main-1 h2{
+   margin-top: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 520;
+  font-size: 140%;
+}
+.section-customer-feedback-main-2{
+  /* border: 1px solid #000; */
+  height: 84%;
+  width: 80%;
+  margin-top: 6px;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.section-customer-feedback-main-2 div{
+  height: 90%;
+  margin-top: 8px;
+  width: 25%;
+  border: 1px solid #CACFD2;
+  border-radius: 6px;
+}
+.section-customer-feedback-main-2 div h3{
+text-align: center;
+margin-top: 15px;
+font-size: 100%;
+font-family: "Poppins", sans-serif;
+}
+.section-customer-feedback-main-2 div h4{
+  margin-top: 40px;
+  margin-left: 18px;
+  font-size: 86%;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.section-customer-feedback-main-2 div h5{
+  font-size: 88%;
+  margin-top: 40px;
+  margin-left: 18px;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* <!-- section-10-customer-feedback-end --> */
+
+
+/* <!------- section-11-all-world-places-name-start----> */
+.section-11-all-world-places-name{
+  /* border: 1px solid #000; */
+  height: 50vh;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #E9EBEE;
+}
+.section-11-main-box{
+  /* border: 1px solid #000; */
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+.section-11-main-box div{
+height: 90%;
+width: 16%;
+margin-top: 2%;
+/* border: 1px solid #000; */
+}
+.section-11-main-box h4{
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 520;
+  margin-top: 3px;
+margin-bottom: 5px;
+}
+
+.section-11-main-box div ul {
+  list-style-type: none;
+}
+.section-11-main-box div ul li{
+cursor: pointer;
+font-family: "Poppins", sans-serif;
+font-size: 10px;
+font-weight: 400;
+}
+.section-11-main-box div ul li:hover{
+color:blue;
+}
+/* <!------- section-11-all-world-places-name-end-----> */
+
+
+
+
+
+/* ------------section-12-footer section starting---------- */
+
+/* ----footer section slogans  starting  ---- */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+.section-12-footer{
+  height:40vh;
+  width: 100%;
+  background-color:#F1F3F4 ;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+}
+.footer-slogans { 
+  /* font-family: 'Open Sans', 'sans-serif'; */
+  font-family: "Poppins", sans-serif;
+  color: #cecece;
+  background: gainsboro;
+  overflow: hidden;
+  font-size: 10px;
+  font-weight: 500;
+}
+.item-1, 
+.item-2, 
+.item-3 {
+  display: block;
+	top: 2em;
+  width: 60%;
+  font-size: 2em;
+	animation-duration: 16s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+  margin-left: 20px;
+  height: 50px;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+/* ----footer section slogans  ending  ---- */
+.more-info-section{
+  height: 18vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.follow-us{
+  height: 110px;
+  width: 30%;
+  margin-top: -100px;
+  /* background-color:goldenrod; */
+  margin-left: 60%;
+  border-radius: 4px;
+}
+.more-info-section-1{
+  width: 100%;
+  height: 60%;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: row;
+}
+.more-info-section-1 div{
+  height: 76%;
+  width: 12%;
+  margin-top: 6px;
+  margin-left: 3%;
+  /* border: 1px solid #000; */
+}
+.more-info-section-1 div h3{
+font-size:20px;
+margin-top: 20px;
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+cursor: pointer;
+}
+.more-info-section-1 div h5{
+  font-size:15px;
+  margin-top: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  }
+.more-info-section-2{
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid #000; */
+}
+.more-info-section-2 h3{
+  font-size:11px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+.follow-us-name {
+  height: 20px;
+  width: 20%;
+  margin-left: 40px;
+  margin-top: 2px;
+  font-family: sans-serif;
+  /* background-color: gold; */
+  
+  } 
+  .follow-us-name h3{
+    border-radius: 4px;
+   padding-left: 7px;
+  }
+
+ .follow-us-website-logos {
+height: 50px;
+width: 60%;
+margin-left: 40px;
+margin-top: 1px;
+/* background-color: aqua; */
+display: flex;
+justify-content:space-around;
+border-radius: 8px;
+} 
+.follow-us-website-logos div img{
+  margin-top: 4px;
+height: 27px;
+width: 27px;
+cursor: pointer;
+/* border: 1px solid #000; */
+}
+
+
+
+/* -----------------section-12-footer section ending------------------- */
+
+
+
+
+
+
+
+    }
+
+
+    @media (min-width:480px) and (max-width:1024px){
+  
+      .nav_bar_section-1{
+        display: none;
+      }
+      .sub-nav-bar-main{
+        display: none;
+      }
+      .back{
+        display: none;
+      }
+      .section-banner-1-main{
+        display: none;
+      }
+      .section-2-offers-main{
+        display: none;
+      }
+      .why-book-with-travellers-main{
+        display: none;
+      }
+      .categories-section-4-main{
+        display: none;
+      }
+      .download-app-5-main{
+        display: none;
+      }
+      .indian-best-places-6-main{
+        display: none;
+      }
+      .section-7-property-category-main{
+        display: none;
+      }
+      .section-8-add{
+        display: none;
+      }
+      .section-9-international-main{
+        display: none;
+      }
+      .section-10-customer-feedback{
+        display: none;
+      }
+      .section-11-all-world-places-name{
+        display: none;
+      }
+      .section-12-footer{
+        display: none;
+      }
+  
+ 
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+ /* <!-- section-international-wise-categories --> */
+
+    
+ .section-inter-wise-categories{
+  height: 58vh;
+  width: 100%;
+
+  background-color:white;
+  border: 1px solid black;
+}
+.section-inter-wise-categories-main{
+  height: 86%;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 1%;
+  border-radius: 10px;
+  /* border: 1px solid #000; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ display: flex;
+ flex-direction: column;
+ background-color: #F2F2F2;
+ /* justify-content: space-around;  */
+}
+.section-inter-main-1{
+  height: 12%;
+  width: 98%;
+  margin-top: 4px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #F2F2F2;
+}
+.section-inter-main-1 h1{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-left: 20px;
+margin-top: 5px;
+font-size: 26px;
+}
+.section-inter-main-1 h3{
+  margin-left: 1080px;
+  margin-top: -20px;
+}
+.section-inter-main-2{
+  border: 1px solid white;
+  height: 300px;
+  margin-top: 10px;
+  display: flex;
+  overflow-x: auto;
+  width: 98%;
+  margin-left: 1%;
+  overflow-y:hidden;
+  border-radius: 10px;
+  background-color: white;
+}
+.section-inter-main-2::-webkit-scrollbar{
+  width: 0;
+}
+.section-inter-main-2 .object{
+  margin-top: 10px;
+  margin-left: 10px;
+  min-width:250px;
+  height: 262px;
+  line-height: 110px;
+  text-align: center;
+  margin-right: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section-inter-main-2 .object img{
+  height:150px ;
+  margin-top: 10px;
+  width:220px ;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+.obj{
+  margin-top: -42px;
+  margin-left: 5px;
+  height: 30px;
+  width: 238px;
+  border: 1px solid white;
+}
+.section-inter-main-2 .obj h4{
+  margin-top: -42px;
+  margin-left: -6px;
+font-size: 16px;
+}
+.Exp-n-2{
+border: 1px solid white;
+height: 26px;
+margin-top: 20px;
+margin-left: 135px;
+width: 100px;
+border-radius: 9px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Exp-n-2 h3{
+  margin-top: -44px;
+  font-size:15px ;
+}
+/* <!-- section-international-wise-categories --> */
+
+
+
+
+.section-destination{
+  height: 60vh;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------- mediaquery-mobile-starting--------- */
+
+
+@media only screen and (max-width:480px)
+{ 
+ 
+ .wrapper
+{ 
+  height:1140px; 
+ width: 100%;
+display:flex;
+flex-direction: column;
+background-color:#F2F2F2;
+}
+ .nav_bar_section-1
+ {
+display: none;
+ }
+ .logo-section{
+   display: none;
+ }
+ .support-center-bar-new{
+   display: none;
+ }
+ .support-center-bar-premium-manage{
+   display: none;
+ }
+ .support-center-bar-insurance{
+   display: none;
+ }
+ .sign-in-button{
+   display: none;
+ }
+ .cart-button{
+   display: none;
+ }
+ .menu-button{
+   display: none;
+ }
+
+
+
+
+
+
+ 
+ .nav_bar_section-1{
+  display: none;
+}
+.sub-nav-bar-main{
+  display: none;
+}
+.back{
+  display: none;
+}
+.section-banner-1-main{
+  display: none;
+}
+.section-2-offers-main{
+  display: none;
+}
+.why-book-with-travellers-main{
+  display: none;
+}
+.categories-section-4-main{
+  display: none;
+}
+.download-app-5-main{
+  display: none;
+}
+.indian-best-places-6-main{
+  display: none;
+}
+.section-7-property-category-main{
+  display: none;
+}
+.section-8-add{
+  display: none;
+}
+.section-9-international-main{
+  display: none;
+}
+.section-10-customer-feedback{
+  display: none;
+}
+.section-11-all-world-places-name{
+  display: none;
+}
+.section-12-footer{
+  display: none;
+}
+
+
+
+
+ .nav_bar_section-1-mobile{
+  height:7vh;
+  width: 100%; 
+  display:flex;
+  flex-direction: row;
+   /* border: 1px solid #000; */
+   background-color: white;
+ }
+.logo-mobile{
+  height:68%;
+  margin-top:2%;
+  width: 38%;
+  margin-left:6%;
+  /* border: 1px solid #000; */
+} 
+.logo-mobile img{
+  height:100%;
+  width: 100%;
+  margin-top: -1%;
+} 
+.cart-mobile{
+  height:42%;
+  margin-top:4%;
+  width: 6%;
+  margin-left:30%;
+  /* border: 1px solid #000; */
+} 
+.cart-mobile img{
+  height:100%;
+  width: 100%;
+} 
+.drop-menu-mobile{
+  height:42%;
+  margin-top:4%;
+  width: 6%;
+  margin-left:10%;
+  /* border: 1px solid #000; */
+} 
+.drop-menu-mobile img{
+  height:100%;
+  width: 100%;
+} 
+.back img
+{
+   display: none;
+}
+/* --------------------media query for logos---------------- */
+.lower-logos-mobile
+{
+height:40vh;
+width: 100%;
+/* border: 1px solid #000; */
+display: flex;
+margin-top: 30px;
+flex-direction: column;
+border-radius: 8px;
+background-color: white;
+}
+.lower-logos-mobile-1{
+  height:10vh;
+  width: 100%;
+  display: flex;
+flex-direction:row;
+justify-content:space-around;
+/* background-color: #E7E7E7; */
+}
+.lower-logos-mobile-1 div{
+height: 90%;
+width: 20%;
+margin-top: 2%;
+/* border: 1px solid #000; */
+background-color: white;
+border-radius: 4px;
+}
+.lower-logos-mobile-1 div img{
+height: 56%;
+width: 56%;
+margin-top: 3%;
+/* border: 1px solid #000; */
+margin-left:22%;
+}
+.lower-logos-mobile-1 div h3{
+font-size: 10px;
+text-align: center;
+font-family:monospace
+  }
+.lower-logos-mobile-2{
+  height:12vh;
+  width: 100%;
+  display: flex;
+flex-direction:row;
+justify-content:space-around;
+/* background-color: #E7E7E7; */
+}
+.lower-logos-mobile-2{
+  /* border: 1px solid #000; */
+  height: 80%;
+  margin-top: 2%;
+  margin-left: 2%;
+  width: 96%;
+  margin-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.destination-search-bar{
+height: 20%;
+width: 96%;
+border: 1px solid #7F8C8D;
+margin-left: 2%;
+border-radius: 4px;
+}
+.des-tni-icon{
+  height: 100%;
+  width: 15%;
+  /* border: 1px solid #000; */
+}
+.des-tni-icon img{
+height: 48%;
+width: 48%;
+margin-top: 20%;
+margin-left: 20%;
+/* border: 1px solid #000; */
+}
+.des-tni-search-bar{
+  height: 90%;
+  width: 80%;
+  margin-top: -36px;
+margin-left: 40px;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: row;
+}
+.des-tni-search-bar div h6{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 5;
+  margin-left: 3px;
+}
+.destinayion-mob-from{
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid #000; */
+}
+.destination-mob-to{
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid #000; */
+}
+#desti-place-mob-select-from{
+  margin-top: -2px;
+  height: 50%;
+  width: 96%;
+  border: none;
+}
+option[value] { 
+  background-color:lightgray;
+  font-size: 16px;
+}
+#desti-place-mob-select-to{
+  margin-top: -2px;
+  height: 50%;
+  width: 96%;
+  border: none;
+}
+
+.check-in-out-bar{
+  height: 26%;
+width: 96%;
+border: 1px solid #7F8C8D;
+margin-left: 2%;
+border-radius: 4px;
+}
+.check-in{
+  /* border: 1px solid #000; */
+  height: 100%;
+  width: 50%;
+}
+.check-in-icon{
+  /* border: 1px solid #000; */
+  height: 100%;
+  width: 25%;
+}
+.check-in-icon img{
+  height: 36%;
+  width: 50%;
+margin-top: 50%;
+margin-left: 22%;
+}
+
+.check-in-icon-search h5{
+margin-top: -46px;
+margin-left: 42px;
+font-weight: 10;
+font-size: 12px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.check-in-icon-search h3{
+  font-weight: 600;
+  font-size: 96%;
+  margin-left: 30%;
+  margin-top: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+.check-out{
+  /* border: 1px solid #000; */
+  height: 100%;
+  width: 50%;
+  margin-top: -53px;
+  margin-left: 50%;
+}
+.check-out-icon{
+  /* border: 1px solid #000; */
+  height: 100%;
+  width: 25%;
+}
+.check-out-icon img{
+  height: 36%;
+  width: 50%;
+margin-top: 56%;
+margin-left: 22%;
+}
+.check-out-icon-search h5{
+margin-top: -44px;
+margin-left: 42px;
+font-weight: 10;
+font-size: 12px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.check-out-icon-search h3{
+  font-weight: 600;
+  font-size: 96%;
+  margin-left: 30%;
+  margin-top: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+.checkin-room-adult-children{
+  height: 20%;
+  width: 96%;
+  border: 1px solid #7F8C8D;
+margin-left: 2%;
+border-radius: 4px;
+}
+.r-a-c-icon{
+  height: 100%;
+  width: 15%;
+  /* border: 1px solid #000; */
+}
+.r-a-c-icon img{
+height: 48%;
+width: 48%;
+margin-top: 20%;
+margin-left: 20%;
+/* border: 1px solid #000; */
+}
+.r-a-c-search-bar{
+  height: 88%;
+  width: 80%;
+  margin-top: -35px;
+margin-left: 40px;
+  /* border: 1px solid #000; */
+}
+#r-a-c-search-bar-mob-select{
+  margin-top: 0px;
+  height: 100%;
+  width: 80%;
+  border: none;
+}
+option[value1] { 
+  background-color:lightgray;
+  font-size: 13px;
+}
+
+.check-in-search-bar{
+  height: 20%;
+width: 96%;
+background-color: #0E5EEC;
+margin-left: 2%;
+border-radius: 4px;
+cursor: pointer;
+}
+.check-in-search-bar h3{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 40px;
+  margin-top: 12px;
+}
+
+
+
+
+
+
+ 
+.container-mobile{
+  margin-top: 80px;
+  width:96%;
+  height: 7vh;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  border-radius: 4px;
+  /* border: 1px solid #000; */
+}
+.wapper-mobile{
+  width: 80%;
+  display: flex;
+  height: 100%;
+  animation: slide 14s infinite;
+  /* border: 1px solid #000; */
+}
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
+img{
+  width: 100%;
+}
+
+
+
+
+.offers-mobile-view{
+  height: 18vh;
+  width: 100%;
+  margin-top: 120px;
+  /* border: 1px solid #000; */
+  border-radius: 4px;
+  background-color:#F2F2F2;
+}
+.offers-name{
+  height: 8%;
+  width: 94%;
+  margin-left: 3%;
+}
+.offers-name h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 13px;
+  margin-top: 2px;
+}
+.offers-main{
+  height: 80%;
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 3%;
+  /* border: 1px solid #000; */
+  display: flex;
+  overflow-y: hidden;
+  overflow-x:auto ;
+}
+.offers-main::-webkit-scrollbar{
+  width: 0;
+}
+.offers-main img {
+  height: 100%;
+  width: 70%;
+  margin-left: 3%;
+  border-radius: 4px;
+  /* border: 1px solid #000; */
+}
+
+
+
+
+.destination-mobile-view{
+  height: 42vh;
+  width: 100%;
+  margin-top: 20px;
+  /* border: 1px solid #000; */
+  border-radius: 4px;
+  background-color:#F2F2F2;
+}
+.destination-name{
+  height: 10%;
+  width: 94%;
+  margin-left: 3%;
+/* border: 1px solid #000; */
+}
+.destination-name h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 13px;
+  margin-top: 2px;
+}
+.site-1{
+  margin-top: 0px;
+  border-radius: 3px;
+  height: 27%;
+  width: 94%;
+  margin-left: 3%;
+/* border: 1px solid #000; */
+}
+.site-1 button{
+  height: 100%;
+  width:100% ;
+  border-radius: 6px;
+  border: none;
+}
+.site-1 button img{
+height: 100%;
+width: 100%;
+border-radius: 2px;
+cursor: pointer;
+box-shadow: 5px 2px 2px #888888;
+}
+.site-2{
+  margin-top: 6px;
+  border-radius: 3px;
+  height: 27%;
+  width: 94%;
+  margin-left: 3%;  
+  box-shadow: 5px 2px 2px #888888;
+/* border: 1px solid #000; */
+}
+.site-2 button{
+  height: 100%;
+  width:100% ;
+  border-radius: 6px;
+  border: none;
+}
+.site-2 button img{
+  height: 100%;
+  width: 100%;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 5px 2px 2px #888888;
+  }
+  .site-3{
+  margin-top: 6px;
+  border-radius: 3px;
+  height: 27%;
+  width: 94%;
+  margin-left: 3%;
+  box-shadow: 5px 2px 2px #888888;
+/* border: 1px solid #000; */
+}
+.site-3 button{
+  height: 100%;
+  width:100% ;
+  border-radius: 6px;
+  border: none;
+}
+.site-3 button img{
+  height: 100%;
+  width: 100%;
+  border-radius: 2px;
+  cursor: pointer;
+  box-shadow: 5px 2px 2px #888888;
+  }
+  .banner-visit{
+    height: 10vh;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15px;
+    /* border: 1px solid #000; */
+  }
+  .banner-visit img{
+    height: 96%;
+    width: 100%;
+    border-radius: 6px;
+  }
+.follow-us-mobile{
+  height: 13vh;
+  width: 100%;
+  margin-top: 30px;
+  /* border: 1px solid #000; */
+}
+.follow-us-mobile-icon{
+  height: 40%;
+  width: 60%;
+  margin-left: 20%;
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.follow-us-mobile-icon div{
+  height: 62%;
+  width: 14%;
+  /* border: 1px solid #000; */
+}
+.follow-us-mobile-icon div img{
+  height: 100%;
+  width: 100%;
+}
+
+#get-it-mac-plalstore{
+  /* border: 1px solid #000; */
+ width: 100%;
+ height:42%;
+} 
+
+.follow-us-mobile h3{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 9px;
+text-align: center;
+}
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width:480px){
+.nav_bar_section-1-mobile{
+  display: none;
+}
+.lower-logos-mobile{
+  display: none;
+}
+.container-mobile{
+  display: none;
+}
+.offers-mobile-view{
+  display: none;
+}
+.destination-mobile-view{
+  display: none;
+}
+.banner-visit{
+  display: none;
+}
+.follow-us-mobile{
+  display: none;
+}
+/* .categories-section-3-main{
+  display: none;
+}
+.download-app-4-main{
+  display: none;
+}
+.indian-best-places-5{
+  display: none;
+} */
+}
+
+/*------------- mediaquery-mobile- end--------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------slideshow starting---------------- */
+/* 
+.container{
+  margin-top: 220px;
+  width: 1000px;
+  height: 70px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.wapper{
+  width: 100%;
+  display: flex;
+  animation: slide 18s infinite;
+}
+@keyframes slide{
+  0%{
+      transform: translateX(0);
+  }
+  25%{
+      transform: translateX(0);
+  }
+  30%{
+      transform: translateX(-100%);
+  }
+  50%{
+      transform: translateX(-100%);
+  }
+  55%{
+      transform: translateX(-200%);
+  }
+  75%{
+      transform: translateX(-200%);
+  }
+  80%{
+      transform: translateX(-300%);
+  }
+  100%{
+      transform: translateX(-300%);
+  }
+}
+img{
+  width: 100%;
+} */
+/* ----------------slideshow end---------------- */
+
+
+
+
+
+
+
+
+
+
+
+/*------------------- future button */
+
+.d {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.d:hover, .d:focus {
+  background-color: #2980B9;
+}
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.drop {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  margin-left: 20px;
+  margin-top: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drop a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown1 a:hover {background-color: #ddd;}
+
+.show {display: block;}
+       /*------------------- future button */
